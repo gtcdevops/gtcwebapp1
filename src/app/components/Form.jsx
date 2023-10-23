@@ -145,6 +145,35 @@ export default function Form() {
                 />
               </div>
             </div>
+
+            {/* pick time */}
+            <div className="lg:col-span-4 col-span-8">
+            <label htmlFor="phone-number" className="block text-md font-medium leading-6 text-gray-700">
+              Pick Up Time
+            </label>
+            <div className="relative mt-2">
+              <div className="flex">
+                <label htmlFor="pickuptime" className="sr-only">
+                  Time
+                </label>
+        
+              <input
+                type="time"
+                name="pickuptime"
+                id="pickuptime"
+                placeholder="0:00"
+                className="block w-full rounded-md border-0 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-700 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-lg sm:leading-8"
+              /></div>
+              <select
+                  id="pickuptime"
+                  name="pickuptime"
+                  className="absolute top-0  right-0 h-full rounded-md border-0 bg-transparent py-0 pl-4 pr-8 text-gray-700 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-lg"
+                >
+                  <option>AM</option>
+                  <option>PM</option>
+                </select>              
+            </div>
+          </div>
           </div>
         </div>
 

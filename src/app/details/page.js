@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
-import Check from "../components/Check"
+import Details from "../components/Details"
 
 const page = () => {
   return (
     <main className="min-h-screen items-center">
     <Navbar />
-    <Check />
+    <Details />
     <Footer />
   </main>  )
 }

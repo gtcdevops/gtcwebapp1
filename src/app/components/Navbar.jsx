@@ -21,7 +21,7 @@ export default function Example() {
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
             src="/gtc_logo_2.svg"
             alt="GTC Logo"
-            width={182}
+            width={189}
             height={37}
             priority
           />
@@ -96,17 +96,17 @@ export default function Example() {
           </Link>
         </div>
 
-        <div className="hidden lg:flex lg:justify-end">
+        <div className="hidden lg:flex lg:justify-end lg:items-center">
           <div
-            className="text-sm flex font-semibold items-center tracking-tight text-gray-600"
-          >
+            className="text-sm items-center tracking-tight text-gray-600"
+          ><div className="flex justify-end text-xs">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-5 h-5"
+              className="w-4 h-4"
             >
               <path
                 strokeLinecap="round"
@@ -114,7 +114,7 @@ export default function Example() {
                 d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-            &nbsp;SINGAPORE <span className="font-light">&nbsp; 24 OCT 2023, 12:01AM</span>
+            &nbsp;SINGAPORE</div> <div className="font-light">&nbsp; 24 OCT 2023, 12:01AM</div>
           </div>
         </div>
       </nav>
@@ -127,7 +127,7 @@ export default function Example() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-50" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-purple-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Ground Tranpsort Concierge</span>
