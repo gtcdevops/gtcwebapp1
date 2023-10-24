@@ -40,7 +40,7 @@ export default function Example() {
         </div>
 
 {/* navitem */}
-        <div className="hidden lg:flex h-48 lg:items-center lg:justify-center lg:h-auto">
+        <div className="hidden lg:flex h-48 lg:items-center lg:justify-center lg:h-auto text-slate-800">
           <Link href="/" className="flex p-4 text-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"
