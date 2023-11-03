@@ -12,7 +12,7 @@ import React from 'react'
     <div className="px-8 py-20 sm:py-22 lg:px-8">
 
       <div className="mx-auto max-w-2xl">
-        <div className="lg:text-4xl font-bold tracking-tight text-slate-700 text-4xl">CONTACT US</div>
+        <div className="lg:text-4xl font-bold tracking-tight text-slate-700 text-4xl">CONTACT US NEW</div>
         <p className="mt-2 text-base leading-6 font-light text-gray-600 ">
           For 24/7 enquiries or assistance, we can be reach via:  SMS / WhatsApp / Line / WeChat:  <span className='font-semibold'>+65 99887755</span>
         </p>
